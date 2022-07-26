@@ -1,8 +1,6 @@
 # Alinhamento de sequências de DNA
 
-## Descrição do projeto
-
-### Introdução
+## Introdução
 
 Em bioinformática, um alinhamento de sequência é uma maneira de organizar as sequências de DNA, RNA ou proteína para identificar seu grau de similaridade que pode ser importante na identificação de relações funcionais, estruturais ou evolutivas entre eles. O genoma humano e o do rato, por exemplo, compartilham uma região conservada com até 8 megabases de comprimento.
 
@@ -16,7 +14,7 @@ Por exemplo, se s = TCGTAC e t = ATCG, então um alinhamento em que as strings r
 
 Uma tarefa importante em bioinformática é encontrar um alinhamento entre duas sequências de DNA que tenha pontuação máxima. 
 
-### Descrição do projeto
+## Descrição do projeto
 
 As funções presentes no arquivo alinhamento.py permitem a comparação entre duas fitas de DNA calculando uma pontuação. Quanto maior é a pontuação, mais similares são as fitas entre si.
 
@@ -25,6 +23,8 @@ As funções gera_gaps() e gera_n_gaps() recebem uma string representando uma fi
 A função pontuacao() retorna a pontuação do alinhamento entre duas fitas de DNA distintas.
 
 A função pontuacao_max() retorna uma lista com os pares de variações de duas fitas de DNA distintas com a maior pontuação, e a maior pontuação entre pares de variações com o mesmo comprimento e número de '_' extras.
+
+<br>
 
 > Este programa foi realizado como exercício de programação para a disciplina de Introdução à Computação (MAC0110) oferecida pela Universidade de São Paulo em 2021, ministrada pelos professores Jose Coelho de Pina Junior e Carlos Hitoshi Morimoto
 
